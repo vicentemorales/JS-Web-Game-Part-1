@@ -1,6 +1,4 @@
-
-
-//Background
+//---- Background ----
 function tile(url, left, bottom, width, height){
     for(let h = 0; h < height; h++){
         for(let w = 0; w < width; w++){
@@ -16,7 +14,7 @@ let heightOfGrass = horizon
 tile('assets/sky.png', 0, horizon, window.innerWidth/100, heightOfSky/100)
 tile('assets/grass.png', 0, 0, window.innerWidth/100, heightOfGrass/100)
 
-
+// ---- Images ----
 function  newImage(url, left, bottom, z){
     let object = document.createElement('img')
     object.src = url
@@ -28,8 +26,6 @@ function  newImage(url, left, bottom, z){
     return object
 }
 
-
-// ---- Images ----
 //Green Character
 newImage('assets/green-character.gif', 100, 100)
 
