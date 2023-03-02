@@ -34,7 +34,7 @@ function  newImage(url, left, bottom, z){
 newImage('assets/green-character.gif', 100, 100)
 
 //Pine Tree
-newImage('assets/pine-tree.png', 450, 100)
+newImage('assets/pine-tree.png', 650, 100)
 
 //Tree
 newImage('assets/tree.png', 200, 300)
